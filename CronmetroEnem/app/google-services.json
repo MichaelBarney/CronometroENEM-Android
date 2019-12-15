@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "431115706610",
+    "firebase_url": "https://cronometroenem-dcb44.firebaseio.com",
+    "project_id": "cronometroenem-dcb44",
+    "storage_bucket": "cronometroenem-dcb44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431115706610:android:2dfc5edfa262caee0f306b",
+        "android_client_info": {
+          "package_name": "com.example.cronmetroenem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431115706610-9v8oh20hvogv7ii2k673orhljeu62jen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXE-Tio9cGp40LEsmP_S9eXVFTZFj0u7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431115706610-9v8oh20hvogv7ii2k673orhljeu62jen.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "431115706610-7g1k6hglm1f5as8srujb2qj9ha205pal.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.michaelbarney.Crono-metro-ENEM.CronometroEnem"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

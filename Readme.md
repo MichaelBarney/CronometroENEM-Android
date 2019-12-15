@@ -18,6 +18,14 @@ Não existem competidores diretos. Os que mais se assemelham são os apps de sim
  - Studos ENEM Vestibular Militar
 
 ## Estrutura
+### Atividades
+O app possui 4 atividades:
+- Main Activity: A tela "menu", apresentando as opções disponíveis.
+- Cronometer Activity: A principal funcionalidade do app, apresentando um cronometro com "adesivos".
+- Test Activity: Uma WebView com um site contendo provas antigas do Enem.
+- Stats Activity: Uma tela contendo informações úteis sobre provas passadas que o usuário fez utilizando o app.
+
+### Wireframe
 [Wireframe](https://github.com/MichaelBarney/CronometroENEM-Android/blob/master/Wireframe.png)
 
 

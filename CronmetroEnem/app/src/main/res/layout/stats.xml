@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Estatísticas"
+        android:textColor="@color/justWhite"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="1º Dia"
+        android:textColor="@color/justWhite"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/nprovas1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textColor="@color/justWhite"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/TF1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Provas Realizadas"
+        android:textColor="@color/justWhite"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nprovas1" />
+
+
+    <TextView
+        android:id="@+id/tprovas1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="8dp"
+        android:text="0h00"
+        android:textColor="@color/justWhite"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/TF2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempo Médio"
+        android:textColor="@color/justWhite"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/tprovas1"
+        app:layout_constraintTop_toBottomOf="@+id/nprovas1" />
+
+
+    <TextView
+        android:id="@+id/ultima1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:text="0h00"
+        android:textColor="@color/justWhite"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/completion1" />
+
+    <TextView
+        android:id="@+id/completion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="92dp"
+        android:text="0%"
+        android:textColor="@color/justWhite"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/TF3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Completude"
+        android:textColor="@color/justWhite"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/completion1"
+        app:layout_constraintTop_toBottomOf="@+id/completion1" />
+
+    <TextView
+        android:id="@+id/TF4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Última Prova"
+        android:textColor="@color/justWhite"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/ultima1"
+        app:layout_constraintTop_toBottomOf="@+id/ultima1" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="2º Dia"
+        android:textColor="@color/justWhite"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TF3" />
+
+    <TextView
+        android:id="@+id/nprovas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:text="0"
+        android:textColor="@color/justWhite"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/TF5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="Provas Realizadas"
+        android:textColor="@color/justWhite"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nprovas2" />
+
+
+    <TextView
+        android:id="@+id/tprovas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="8dp"
+        android:text="0h00"
+        android:textColor="@color/justWhite"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/TF6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tempo Médio"
+        android:textColor="@color/justWhite"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/tprovas2"
+        app:layout_constraintTop_toBottomOf="@+id/nprovas2" />
+
+
+    <TextView
+        android:id="@+id/ultima2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:text="0h00"
+        android:textColor="@color/justWhite"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/completion2" />
+
+    <TextView
+        android:id="@+id/completion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="92dp"
+        android:text="0%"
+        android:textColor="@color/justWhite"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/TF7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Completude"
+        android:textColor="@color/justWhite"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/completion2"
+        app:layout_constraintTop_toBottomOf="@+id/completion2" />
+
+    <TextView
+        android:id="@+id/TF8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Última Prova"
+        android:textColor="@color/justWhite"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/ultima2"
+        app:layout_constraintTop_toBottomOf="@+id/ultima2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
