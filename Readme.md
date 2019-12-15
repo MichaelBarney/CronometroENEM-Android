@@ -1,4 +1,11 @@
 # Cronômetro ENEM
+
+## Adendo
+Para fins demonstrativos, o temporizador do cronometro foi implementado com 60 milisegundos ao invés de um minuto, fazendo com que 30 minutos se passe em 1.8 segundos.
+
+## Vídeo
+[Youtube](https://youtu.be/QkePK2DyZL8)
+
 ## Ideia
 O cronômetro enem é um aplicativo de simulação do ambiente da prova do ENEM. 
 
